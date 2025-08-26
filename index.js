@@ -15,7 +15,7 @@ app.post('/webhook', (req, res) => {
 <Response>
     <Play>https://clone-bot-1-pqk0.onrender.com/AndrewSimulator.mp3</Play>
     <Pause length="1"/>
-    <Say voice="alice">Thank you for listening to my intro. Have a great day!</Say>
+    <Say voice="alice">Yea you should really go get checked out! You smell like 3 year old licorice sticks boy, quit playing with me.</Say>
 </Response>`;
     
     res.type('text/xml');
@@ -28,7 +28,7 @@ app.post('/webhook-mission', (req, res) => {
 <Response>
     <Play>https://clone-bot-1-pqk0.onrender.com/MissionImpossible.mp3</Play>
     <Pause length="1"/>
-    <Say voice="alice">Thank you for listening to my intro. Have a great day!</Say>
+    <Say voice="alice">Yea you should really go get checked out! You smell like 3 year old licorice sticks boy, quit playing with me.</Say>
 </Response>`;
     
     res.type('text/xml');
@@ -41,7 +41,7 @@ app.post('/webhook-crazy', (req, res) => {
 <Response>
     <Play>https://clone-bot-1-pqk0.onrender.com/Crazy.mp3</Play>
     <Pause length="1"/>
-    <Say voice="alice">Thank you for listening to my intro. Have a great day!</Say>
+    <Say voice="alice">Yea you should really go get checked out! You smell like 3 year old licorice sticks boy, quit playing with me.</Say>
 </Response>`;
     
     res.type('text/xml');
