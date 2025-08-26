@@ -2,6 +2,9 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
 
+//make the "public" folder accessible to the web
+app.use(express.static('public'));
+
 // Middleware to parse incoming requests
 app.use(express.urlencoded({ extended: true }));
 
