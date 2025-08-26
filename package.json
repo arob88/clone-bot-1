@@ -1,0 +1,15 @@
+{
+  "name": "voice-clone-webhook",
+  "version": "1.0.0",
+  "description": "Simple Twilio webhook for AI voice clone intro",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
